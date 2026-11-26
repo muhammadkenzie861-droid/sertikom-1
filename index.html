@@ -23,7 +23,7 @@
                     <a class="nav-link" href="#about">Tentang</a>
                     <a class="nav-link" href="#Destinations">Destinasi</a>
                     <a class="nav-link" href="#packages">Paket</a>
-                    <a class="nav-link" href="#">Kontak</a>
+                    <a class="nav-link" href="#kontak">Kontak</a>
                 </div>
             </div>
         </div>
@@ -342,7 +342,93 @@
     </div>
   </div>
 </div>
+    <section class="kontak" id="kontak" aria-labelledby="kontakTitle">
+        <div class="container">
+            <div class="row g-4 g-lg-5 align-items-center">
+                <div class="col-lg-5">
+                    <span class="kontak-badge"><i class="fa-solid fa-headset" aria-hidden="true"></i> Hubungi JelajahNusa</span>
+                    <h2 class="kontak-title" id="kontakTitle">Ada pertanyaan tentang perjalanan Anda?</h2>
+                    <p class="kontak-description">Ceritakan rencana perjalanan Anda. Kami siap membantu menemukan destinasi dan paket yang sesuai.</p>
+                    <div class="kontak-points">
+                        <div class="kontak-point">
+                            <i class="kontak-icon fa-solid fa-location-dot" aria-hidden="true"></i>
+                            <div>
+                                <span class="kontak-point-label">Alamat</span>
+                                <span>Jl. Poras No. 7, Bogor</span>
+                            </div>
+                        </div>
+                        <div class="kontak-point">
+                            <i class="kontak-icon fa-solid fa-phone" aria-hidden="true"></i>
+                            <div>
+                                <span class="kontak-point-label">Telepon</span>
+                                <a href="tel:+622518376224">(0251) 8376 224</a>
+                            </div>
+                        </div>
+                        <div class="kontak-point">
+                            <i class="kontak-icon fa-solid fa-envelope" aria-hidden="true"></i>
+                            <div>
+                                <span class="kontak-point-label">Email</span>
+                                <a href="mailto:hello@jelajahnusa.id">hello@jelajahnusa.id</a>
+                            </div>
+                        </div>
+                        <div class="kontak-point">
+                            <i class="kontak-icon fa-brands fa-instagram" aria-hidden="true"></i>
+                            <div>
+                                <span class="kontak-point-label">Instagram</span>
+                                <a href="https://www.instagram.com/jelajahnusa/" target="_blank" rel="noopener noreferrer">@jelajahnusa</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="kontak-card">
+                        <h3 class="kontak-form-title">Formulir Kontak</h3>
+                        <p class="kontak-form-description">Lengkapi formulir ini agar kami memahami kebutuhan perjalanan Anda.</p>
+                        <form class="kontak-form" action="#" method="post">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label" for="kontakNama">Nama lengkap</label>
+                                    <input class="form-control" type="text" id="kontakNama" name="kontakNama" autocomplete="name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label" for="kontakEmail">Alamat email</label>
+                                    <input class="form-control" type="email" id="kontakEmail" name="kontakEmail" autocomplete="email" required>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label" for="kontakSubjek">Subjek</label>
+                                    <input class="form-control" type="text" id="kontakSubjek" name="kontakSubjek" required>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label" for="kontakPesan">Pesan</label>
+                                    <textarea class="form-control" id="kontakPesan" name="kontakPesan" rows="5" required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary kontak-submit" type="submit">
+                                        Kirim pertanyaan <i class="fa-solid fa-paper-plane ms-2" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    <footer class="site-footer" id="footer">
+        <div class="container py-4 py-lg-5">
+            <div class="row gy-4 align-items-center">
+                <div class="col-lg-5 text-center">
+                    <a class="footer-brand" href="#home">JELAJAH<span class="brand-accent">NUSA</span></a>
+                    <p class="footer-description">Temukan pengalaman perjalanan yang berkesan di seluruh Nusantara.</p>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="footer-bottom">
+                <p class="mb-0">&copy; 2026 JelajahNusa. Hak cipta dilindungi.</p>
+                <a class="footer-top-link" href="#home">Kembali ke atas <i class="fa-solid fa-arrow-up ms-1" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="asset/js/script.js"></script>

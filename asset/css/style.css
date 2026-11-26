@@ -784,3 +784,192 @@ body {
 
 }
 
+.kontak {
+    padding: clamp(4rem, 7vw, 7rem) 0;
+    background: var(--page);
+}
+
+.kontak-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: .6rem;
+    padding: .55rem .9rem;
+    border-radius: 999px;
+    color: var(--dark);
+    background: rgba(84, 183, 255, .18);
+    font-weight: 700;
+}
+
+.kontak-icon{
+    display: inline-flex;
+    align-items: center;
+    gap: .6rem;
+    padding: .55rem .9rem;
+    border-radius: 999px;
+    color: var(--dark);
+    background: rgba(84, 183, 255, .18);
+    font-weight: 700;
+    align-self: center;
+    justify-content: center;
+}
+
+.kontak-title {
+    margin: 1.25rem 0 1rem;
+    color: var(--dark);
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 800;
+    line-height: 1.12;
+}
+
+.kontak-description,
+.kontak-form-description {
+    color: var(--card);
+    line-height: 1.7;
+}
+
+.kontak-points {
+    display: grid;
+    gap: .9rem;
+    margin-top: 1.75rem;
+}
+
+.kontak-info-title {
+    margin: 0 0 .25rem;
+    color: var(--dark);
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.kontak-point {
+    display: flex;
+    align-items: flex-start;
+    gap: .8rem;
+    color: var(--dark);
+    line-height: 1.5;
+}
+
+.kontak-point i {
+    width: 1.25rem;
+    margin-top: .25rem;
+    color: var(--card);
+    text-align: center;
+}
+
+.kontak-point-label {
+    display: block;
+    color: var(--dark);
+    font-weight: 700;
+}
+
+.kontak-point a {
+    color: var(--card);
+    text-decoration: none;
+}
+
+.kontak-point a:hover {
+    color: var(--dark);
+    text-decoration: underline;
+}
+
+.kontak-card {
+    padding: clamp(1.25rem, 3vw, 2.25rem);
+    border: 1px solid rgba(18, 59, 86, .12);
+    border-radius: 20px;
+    background: var(--white);
+    box-shadow: 0 18px 48px rgba(18, 59, 86, .1);
+}
+
+.kontak-form-title {
+    margin-bottom: .5rem;
+    color: var(--dark);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.kontak .form-label {
+    color: var(--dark);
+    font-weight: 700;
+}
+
+.kontak .form-control {
+    min-height: 48px;
+    border-color: rgba(18, 59, 86, .2);
+    border-radius: 10px;
+}
+
+.kontak textarea.form-control {
+    min-height: 145px;
+}
+
+.kontak .form-control:focus {
+    border-color: var(--blue);
+    box-shadow: 0 0 0 .2rem rgba(84, 183, 255, .2);
+}
+
+.kontak-submit {
+    min-height: 48px;
+    padding: .7rem 1.25rem;
+    border-color: var(--card);
+    border-radius: 999px;
+    background: var(--card);
+    font-weight: 700;
+}
+
+.kontak-submit:hover {
+    border-color: var(--dark);
+    background: var(--dark);
+}
+
+.site-footer {
+    color: rgba(255, 255, 255, .8);
+    background: var(--dark);
+}
+
+.footer-brand {
+    display: inline-block;
+    margin-bottom: .75rem;
+    color: var(--white);
+    font-size: 1.35rem;
+    font-weight: 800;
+    letter-spacing: .04em;
+    text-decoration: none;
+}
+
+.footer-description {
+    max-width: 26rem;
+    margin: 0;
+    line-height: 1.7;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: .75rem 1.25rem;
+}
+
+.footer-links a,
+.footer-top-link {
+    color: var(--white);
+    text-decoration: none;
+    transition: color .2s ease;
+}
+
+.footer-links a:hover,
+.footer-top-link:hover {
+    color: var(--gold);
+}
+
+.footer-divider {
+    margin: 1.75rem 0 1.25rem;
+    border-color: rgba(255, 255, 255, .2);
+    opacity: 1;
+}
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    font-size: .9rem;
+}
