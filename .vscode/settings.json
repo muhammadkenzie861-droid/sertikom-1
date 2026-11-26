@@ -1,0 +1,21 @@
+{
+    "customFileOrder.rules": {
+        "asset": {
+            "order": [
+                "css",
+                "js",
+                "images"
+            ]
+        },
+        "asset/images": {
+            "order": [
+                "bali.jpg",
+                "bromo.jpg",
+                "labuan-bajo.jpg",
+                "pexels-tomfisk-35219409.jpg",
+                "raja-ampat.jpg",
+                "pexels-apyfz-30770673.jpg"
+            ]
+        }
+    }
+}
